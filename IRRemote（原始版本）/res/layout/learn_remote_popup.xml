@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/main_popup_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:gravity="center"
+        android:orientation="vertical" >
+ <TextView
+            android:id="@id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/learn"
+            android:textSize="18.0dip"
+             android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/remote_learn_edit"
+            android:layout_width="240.0dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_nor_round_selector"
+            android:gravity="center"
+            android:text="@string/edit"
+            android:textSize="18.0dip"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/remote_learn_clean"
+            android:layout_width="240.0dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_nor_round_selector"
+            android:gravity="center"
+            android:paddingBottom="6.0dip"
+           
+            android:text="@string/clear"
+            android:textSize="18.0dip"
+            android:textStyle="bold" />
+
+       
+    </LinearLayout>
+
+</RelativeLayout>

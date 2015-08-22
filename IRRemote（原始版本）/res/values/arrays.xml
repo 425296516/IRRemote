@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="menu_name_base">
+
+　　                <item>Select</item>
+
+　　                <item>Learn</item>
+
+　　                <item>Setting</item>
+
+　　                <item>About</item>
+
+　　                <item>Quit</item>
+        <item>Return</item>
+
+   
+　　    </string-array>
+    <string-array name="type_array">
+        <item>TV</item>
+        <item>DVD</item>
+        <item>STB</item>
+        <item>FAN</item>
+        <item>PJT</item>
+        <item>AIR</item>
+        <item>LIGHT</item>
+        <item>CAMERA</item>
+        <item>AMPLIFY</item>
+        <item>GAME</item>
+        <item>SWITCH</item>
+    </string-array>
+
+    <string-array name="key_array">
+        <item>normal</item>
+        <item>power_on</item>
+        <item>num_1</item>
+        <item>num_2</item>
+        <item>num_3</item>
+        <item>num_4</item>
+        <item>num_5</item>
+        <item>num_6</item>
+        <item>num_7</item>
+        <item>num_8</item>
+        <item>num_9</item>
+        <item>num_10</item>
+        <item>num_0</item>
+        <item>back</item>
+        <item>eject</item>
+        <item>exit</item>
+        <item>favorite</item>
+        <item>ff</item>
+        <item>home</item>
+        <item>horizontal</item>
+        <item>input</item>
+        <item>mute</item>
+        <item>next</item>
+        <item>pause</item>
+        <item>play</item>
+        <item>prev</item>
+        <item>quickskip</item>
+        <item>rec</item>
+        <item>rew</item>
+        <item>setting</item>
+        <item>stop</item>
+        <item>vertical</item>
+        <item>hyphen</item>
+        <item>down</item>
+        <item>left</item>
+        <item>info</item>
+        <item>menu</item>
+        <item>play_tri</item>
+        <item>play_cir</item>
+        <item>play_rec</item>
+        <item>play_cro</item>
+        <item>repeat</item>
+        <item>right</item>
+        <item>shuffle</item>
+        <item>up</item>
+        <item>play_pause</item>
+        <item>blue</item>
+        <item>green</item>
+        <item>red</item>
+        <item>yellow</item>               
+　　    </string-array>
+
+    <string-array name="device_array">
+        <item>Dummy</item>
+        <item>ET4003</item>
+        <item>ET4007</item>
+        <item>DC6008</item>
+        <item>CONSUMERIR</item>
+       
+    </string-array>
+
+</resources>

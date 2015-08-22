@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/milk"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <com.etek.ui.TitleBarView
+        android:id="@id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/learn_index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_bar"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/learn_index_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/learn_info"
+            android:textColor="@color/defaultTextColor" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/learn_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/learn_index"
+        android:layout_marginTop="20dip"
+        android:background="#dddddd"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/learn_data_st"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/learn_info"
+            android:textColor="@color/defaultTextColor" />
+
+        <TextView
+            android:id="@+id/learn_data_context"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/next"
+            android:textColor="@color/defaultTextColor" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_learn_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/learn_info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/learn_bt_learn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_nor_round_selector"
+            android:text="@string/learn" />
+
+        <Button
+            android:id="@+id/learn_bt_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_nor_round_selector"
+            android:text="@string/remote_sender" />
+    </LinearLayout>
+
+    
+
+    <com.etek.ui.HorizontalListView
+        android:id="@+id/allbt_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="128dip"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:id="@+id/learn_sure_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/learn_bt_save"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_nor_round_selector"
+            android:text="@string/save_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_learn_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/learn_sure_ll"
+        android:layout_marginBottom="20dip"
+        android:background="#dddddd"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/learn_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/key_name"
+            android:textColor="@color/defaultTextColor"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/learn_name_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/next"
+            android:textColor="@color/defaultTextColor"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</RelativeLayout>

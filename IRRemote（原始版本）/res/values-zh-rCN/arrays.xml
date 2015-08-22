@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="type_array">
+        <item>电视</item>
+        <item>影碟机</item>
+        <item>机顶盒</item>
+        <item>风扇</item>
+        <item>投影仪</item>
+        <item>空调</item>
+        <item>灯光</item>
+        <item>照相机</item>
+        <item>功放</item>
+        <item>游戏</item>
+        <item>开关</item>
+    </string-array>
+    <string-array name="terminal_array">
+        <item>自动</item>
+        <item>ET4003YD18</item>
+        <item>DC6008</item>
+        <item>CONSUMERIR</item>
+        <item>三星</item>
+        <item>音频</item>
+    </string-array>
+
+</resources>

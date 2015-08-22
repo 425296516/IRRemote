@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:id="@+id/txt_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取常用品牌接口:"
+        android:textColor="@color/blue" />
+
+    <TextView
+        android:id="@+id/txt_params_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="无需具体参数；此服务返回常用品牌列表，请缓存使用，可定期更新，如一周更新一次。"
+        android:textSize="12sp" />
+
+    <Button 
+        android:id="@+id/btn_laod_brands"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="加载品牌"
+        />
+    
+    <ListView
+        android:id="@+id/listview_brands"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2" />
+
+</LinearLayout>

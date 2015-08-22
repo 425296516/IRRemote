@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_list"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall"
+    android:padding="10dp"
+
+    android:textAppearance="?android:attr/textAppearanceListItemSmall" >
+ <com.etek.ui.KeyButton
+        android:id="@+id/list_key_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send" />
+    <TextView
+        android:id="@+id/list_key_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/list_key_button"
+        android:text="开关键"
+        android:textSize="16sp"
+        android:textColor="@color/black" />
+
+   
+   
+
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:id="@+id/txt_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下载遥控器数据接口：参数为遥控器id"
+        android:textColor="@color/blue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <EditText
+            android:id="@+id/edit_remote_id"
+            style="@android:style/Widget.EditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="12sp"
+            android:layout_weight="2" />
+
+        <Button
+            android:id="@+id/btn_download"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="下载" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_note_parse_remote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="解析出的遥控器:" />
+
+    
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+                android:layout_marginBottom="30dp"
+        >
+        
+    <TextView
+        android:id="@+id/txt_parse_remote_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/btn_use_remote"
+        android:layout_centerVertical="true"
+        android:background="#6E7B8B"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="10dp" />
+        
+    <Button 
+        android:id="@+id/btn_use_remote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="使用遥控器"
+        android:enabled="false"
+        />
+        
+    </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/txt_note_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="响应结果:" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical" >
+
+        <TextView
+            android:id="@+id/txt_response_json"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30dp"
+            android:background="#6E7B8B"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="10dp" />
+    </ScrollView>
+
+</LinearLayout>
